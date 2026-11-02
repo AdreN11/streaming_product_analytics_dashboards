@@ -1,3 +1,6 @@
+-- В терминале ввести докер команду, войти в оболочку, создать таблицы и вставить данные.
+-- docker compose exec clickhouse clickhouse-client
+
 CREATE DATABASE IF NOT EXISTS analytics;
 
 USE analytics;
